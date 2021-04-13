@@ -1,5 +1,5 @@
 AOS.init({
-    duration: 800
+    duration: 1000
 });
 
 // $(document).on("click", '[data-toggle="lightbox"]', function(event) {
