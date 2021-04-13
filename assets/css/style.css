@@ -9,6 +9,18 @@ body {
     background-color: #fff;
     font-family: sans-serif;
 }
+h1.text-header {
+    font-family: 'Open Sans', sans-serif;
+    color: #fcb571;
+    font-weight: 800;
+    font-size: 4rem;
+}
+h2.text-header {
+    font-family: 'Open Sans', sans-serif;
+    color: #fcb571;
+    font-weight: 800;
+    font-size: 2.5rem;
+}
 
 .bg-putih {
     background-color: #f8f3ef;
@@ -23,7 +35,7 @@ body {
 }
 
 .bg-orange {
-    background: #fcb571;
+    background: #f18b2b;
 }
 
 .text-orange{
@@ -77,4 +89,117 @@ body {
     background-size: cover;
     display: flex;
     align-items: center;
+}
+.hiking {
+    height: 100vh;
+    background-image: url(../img/bg-coklat.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+
+@media screen and (max-width:320px){
+    .diskon-tombol a{
+        width: 100% !important;
+    }
+    .body h1 {
+        font-size: 2.5rem;
+    }
+    h1,h2,h3,h4,h5,h6{
+        margin-bottom: 10px;
+    }
+    h1,h2 {
+        font-size: 27px !important;
+    }
+    .container{
+        width: 90%;
+    }
+    .search{
+        width: 100%;
+    }
+    .fa-search {
+        right: 10%;
+    }
+    .header {
+        background-position: left;
+    }
+    .discon p {
+        width: 100% !important;
+    }
+
+    .hiking{
+        background-size: auto;
+    }
+    
+}
+
+@media screen and (min-width:320px) and (max-width:563px){
+    .diskon-tombol a{
+        width: 100% !important;
+    }
+    .body h1 {
+        font-size: 2.5rem;
+    }
+    h1,h2,h3,h4,h5,h6{
+        margin-bottom: 10px;
+    }
+    h1,h2 {
+        font-size: 27px !important;
+    }
+    .container{
+        width: 90%;
+    }
+    .search{
+        width: 100%;
+    }
+    .fa-search {
+        right: 10%;
+    }
+    .header {
+        background-position: left;
+    }
+    .discon p {
+        width: 100% !important;
+    }
+
+    .hiking{
+        background-size: auto;
+    }
+    
+}
+@media screen and (min-width:563px) and (max-width:768px){
+    .diskon-tombol a{
+        width: 100% !important;
+    }
+    .body h1 {
+        font-size: 2.5rem;
+    }
+    h1,h2,h3,h4,h5,h6{
+        margin-bottom: 10px;
+    }
+    h1,h2 {
+        font-size: 27px !important;
+    }
+    .container{
+        width: 90%;
+    }
+    .search{
+        width: 100%;
+    }
+    .fa-search {
+        right: 10%;
+    }
+    .header {
+        background-position: left;
+    }
+    .discon p {
+        width: 100% !important;
+    }
+
+    .hiking{
+        background-size: auto;
+    }
+    
 }
