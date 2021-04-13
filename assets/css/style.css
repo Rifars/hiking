@@ -69,3 +69,12 @@ body {
     display: flex;
     align-items: center;
 }
+
+.body {
+    height: 100vh;
+    background-image: url(../img/body.png);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
